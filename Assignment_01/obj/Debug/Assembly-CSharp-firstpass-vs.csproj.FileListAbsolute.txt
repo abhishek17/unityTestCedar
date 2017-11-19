@@ -1,0 +1,22 @@
+C:\Users\Abhishek\Documents\AIForGames\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Abhishek\Documents\AIForGames\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Abhishek\Documents\AIForGames\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Abhishek\Documents\AIForGames\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Abhishek\Documents\AIForGames\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Abhishek\Documents\AIForGames\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Abhishek\Documents\AIForGames\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Abhishek\Documents\AIForGames\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Abhishek\Documents\AIForGames\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+C:\Users\Abhishek\Documents\AIForGames\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Abhishek\Documents\AIForGames\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Sidd G\Desktop\AIForGames\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Sidd G\Desktop\AIForGames\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Sidd G\Desktop\AIForGames\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Sidd G\Desktop\AIForGames\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Sidd G\Desktop\AIForGames\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Sidd G\Desktop\AIForGames\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Sidd G\Desktop\AIForGames\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Sidd G\Desktop\AIForGames\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Sidd G\Desktop\AIForGames\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+C:\Users\Sidd G\Desktop\AIForGames\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Sidd G\Desktop\AIForGames\obj\Debug\Assembly-CSharp-firstpass.pdb
