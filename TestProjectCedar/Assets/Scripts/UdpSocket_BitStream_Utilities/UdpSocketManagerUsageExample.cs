@@ -1,0 +1,56 @@
+﻿using UnityEngine;
+using System.Text;
+
+public class UdpSocketManagerUsageExample : MonoBehaviour {
+
+    public static bool isActive = false;
+
+    public UdpSocketManager _udpSocketManager;
+    public bool _isListenPortLogged = false;
+
+    void Start() {
+        isActive = true;
+        _udpSocketManager = new UdpSocketManager("127.0.0.1", 55056);
+        StartCoroutine(_udpSocketManager.initSocket());
+    }
+    public void onButtonClick()
+    {
+        if (!_udpSocketManager.isInitializationCompleted())
+        {
+            return;
+        }
+        if (!_isListenPortLogged)
+        {
+            Debug.Log("UdpSocketManager, listen port: " + _udpSocketManager.getListenPort());
+            _isListenPortLogged = true;
+        }
+        _udpSocketManager.send(Encoding.UTF8.GetBytes("Perspective button pressed"));
+        Debug.Log("UdpSocketManager, Sent taak");
+        
+    }
+
+    // Update is called once per frame
+    void Update() {
+        if (!_udpSocketManager.isInitializationCompleted()) {
+            return;
+        }
+        if(!_isListenPortLogged) {
+            Debug.Log("UdpSocketManager, listen port: " + _udpSocketManager.getListenPort());
+            _isListenPortLogged = true;
+        }
+        foreach (byte[] recPacket in _udpSocketManager.receive()) {
+            string receivedMsg = Encoding.UTF8.GetString(recPacket);
+            Debug.Log("Packet received: " + receivedMsg);
+            //if(receivedMsg == "Tik") 
+             //   _udpSocketManager.send(Encoding.UTF8.GetBytes("Taak"));
+            //    Debug.Log("UdpSocketManager, Sent taak");
+           // }
+        }
+    }
+
+    private void OnDestroy() {
+        if (_udpSocketManager != null) {
+            _udpSocketManager.closeSocketThreads();
+        }
+    }
+}
