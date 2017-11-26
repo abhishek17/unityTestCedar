@@ -50,19 +50,14 @@
      <Compile Include="Assets\Scripts\UdpSocket_BitStream_Utilities\BitwiseMemoryOutputStream.cs" />
      <Compile Include="Assets\Scripts\UdpSocket_BitStream_Utilities\UdpSocketManager.cs" />
      <Compile Include="Assets\Scripts\UdpSocket_BitStream_Utilities\UdpSocketManagerUsageExample.cs" />
+     <Compile Include="Assets\animateControl.cs" />
      <Compile Include="Assets\knobDrag.cs" />
      <Compile Include="Assets\switchHdl.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
