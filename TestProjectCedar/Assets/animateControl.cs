@@ -17,7 +17,7 @@ public class animateControl : MonoBehaviour {
     public void spriteClick()
     {
         Debug.Log("sprite sheet clicked");
-        animComp.Play("click");
+        animComp.Play("lion");
         
     }
 }
